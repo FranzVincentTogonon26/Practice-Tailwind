@@ -12,7 +12,7 @@ html, body {
 
 @layer components {
     .card {
-        @apply flex-box p-6 gap-x-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10;
+        @apply flex-box items-center max-w-sm p-6 gap-x-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10;
 
         h3 {
         @apply text-xl font-medium text-white
@@ -23,7 +23,7 @@ html, body {
     }
 
     .profile-card {
-        @apply flex-box flex-col p-8 gap-2 sm:flex-row sm:items-center sm:gap-6 sm:py-4 shadow-lg outline outline-black/5 bg-white;
+        @apply flex-box items-center max-w-sm flex-col p-8 gap-2 sm:flex-row sm:items-center sm:gap-6 sm:py-4 shadow-lg outline outline-black/5 bg-white;
 
         img {
             @apply h-24 mx-auto block rounded-full sm:mx-0 sm:shrink-0
@@ -48,8 +48,45 @@ html, body {
             @apply border border-purple-200 font-semibold rounded-full px-6 py-1 text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700;
         }
     }
+
+    .user {
+        @apply flex-box flex-col max-w-lg mx-auto bg-white p-8 space-y-3;
+
+        .user-info {
+            @apply flex items-center text-base space-x-4 ;
+
+            h3 {
+                @apply text-lg font-semibold text-black
+            }
+
+            span {
+                @apply text-black font-medium bg-gray-200 text-xs rounded-full px-3 py-1;
+            }
+
+        }
+
+        .user-images {
+            @apply flex -space-x-2 overflow-hidden;
+        }
+
+        .user-footer {
+            @apply text-sm font-medium;
+
+            a {
+                @apply text-blue-500;
+            }
+        }
+
+        
+    }
+
+
 }
 
 @utility flex-box {
-    @apply mx-auto flex items-center max-w-sm  rounded-xl  mt-10;
+    @apply mx-auto flex rounded-xl  mt-10;
+}
+
+@utility user-list {
+    @apply h-12 rounded-full ring-2 ring-white inline-block
 }
