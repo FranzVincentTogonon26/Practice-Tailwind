@@ -53,7 +53,7 @@ html, body {
         @apply flex-box flex-col max-w-lg mx-auto bg-white p-8 space-y-3;
 
         .user-info {
-            @apply flex items-center text-base space-x-4 ;
+            @apply flex items-center text-base space-x-4 ;s
 
             h3 {
                 @apply text-lg font-semibold text-black
@@ -76,8 +76,27 @@ html, body {
                 @apply text-blue-500;
             }
         }
-
         
+    }
+
+    .group-card {
+        @apply mx-auto block mt-10 max-w-sm space-y-3 rounded-lg bg-white p-4 shadow-lg ring-1 ring-gray-900/5 hover:bg-sky-500 hover:ring-sky-500 dark:bg-white/5 dark:ring-white/10;
+
+        div {
+            @apply flex items-center space-x-3;
+
+            svg {
+                @apply h-6 w-6 stroke-sky-500 ;
+            }
+
+            h3 {
+                @apply text-white font-semibold text-sm;
+            }
+        }
+
+        p {
+            @apply w-full text-gray-500 ;
+        }
     }
 
 
@@ -90,3 +109,4 @@ html, body {
 @utility user-list {
     @apply h-12 rounded-full ring-2 ring-white inline-block
 }
+
