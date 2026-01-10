@@ -86,16 +86,24 @@ html, body {
             @apply flex items-center space-x-3;
 
             svg {
-                @apply h-6 w-6 stroke-sky-500 ;
+                @apply h-6 w-6 stroke-sky-500 group-hover:stroke-white ;
             }
 
             h3 {
-                @apply text-white font-semibold text-sm;
+                @apply text-white font-semibold text-sm group-hover:stroke-white ;
             }
         }
 
         p {
-            @apply w-full text-gray-500 ;
+            @apply w-full text-gray-500 group-hover:text-white;
+        }
+    }
+
+    .grid-card {
+        @apply grid gap-4 grid-cols-3  max-w-md items-center mx-auto mt-10 rounded-lg p-4 shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+
+        span {
+            @apply bg-pink-400 font-semibold text-center p-5 rounded-lg text-white
         }
     }
 
