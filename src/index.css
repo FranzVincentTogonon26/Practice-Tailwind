@@ -103,7 +103,27 @@ html, body {
         @apply grid gap-4 grid-cols-3  max-w-md items-center mx-auto mt-10 rounded-lg p-4 shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
 
         span {
-            @apply bg-pink-400 font-semibold text-center p-5 rounded-lg text-white
+            @apply bg-pink-400 font-sans font-semibold text-center p-5 rounded-lg text-white
+        }
+    }
+
+    .profile {
+        @apply relative overflow-hidden flex mx-auto items-center rounded-lg max-w-sm p-5 mt-10 gap-x-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10;
+
+        img {
+                @apply absolute h-24 w-24 rounded-full -left-6 shadow-lg;  
+        }
+        div {
+            @apply flex flex-col space-y-0.5 pl-20;
+
+            strong {
+                @apply text-white font-semibold;
+            }
+
+            span {
+                @apply text-gray-400 font-semibold;
+            }
+            
         }
     }
 
