@@ -51,10 +51,10 @@ html, body {
     }
 
     .user {
-        @apply flex-box flex-col max-w-lg mx-auto bg-white p-8 space-y-3;
+        @apply flex-box flex-col max-w-lg mx-auto bg-white p-8 space-y-3 ;
 
         .user-info {
-            @apply flex items-center text-base space-x-4 ;s
+            @apply flex items-center text-base space-x-4  ;
 
             h3 {
                 @apply text-lg font-semibold text-black
@@ -206,6 +206,14 @@ html, body {
 
         div:nth-child(7){
             @apply col-span-2 bg-purple-600
+        }
+    }
+
+    .content-list {
+        @apply h-100 grid grid-cols-3 content-center gap-4 max-w-xl items-center mx-auto mt-10 p-5 rounded-lg py-4 shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+
+        div {
+            @apply bg-white text-black font-semibold text-sm p-5 text-center rounded-lg;
         }
     }
 
