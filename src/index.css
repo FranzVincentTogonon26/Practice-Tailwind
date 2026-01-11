@@ -4,6 +4,7 @@
 
 html, body {
     background-color: #0f141e;
+    padding: 3rem;
 }
 
 /* @layer base {
@@ -148,6 +149,22 @@ html, body {
                     @apply text-gray-500 font-normal;
                 }
 
+            }
+        }
+    }
+
+    .vertical-list {
+        @apply overflow-x-scroll flex mx-auto max-w-md p-3 gap-x-2  mt-10 rounded-lg bg-slate-800 outline outline-black/5 ;
+
+        .profile-list {
+            @apply flex-none text-center ;
+
+            img {
+                @apply h-18 w-18 rounded-full;  
+            }
+
+            strong {
+                @apply text-white font-semibold text-xs
             }
         }
     }
