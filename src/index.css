@@ -227,7 +227,7 @@ html, body {
     }
 
     .wrapper {
-        @apply flex max-w-xl mt-10 rounded-lg mx-auto shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+        @apply card-wrapper;
 
         .article {
             @apply space-y-5 flex flex-col mx-auto  p-8 max-w-sm justify-center;
@@ -258,9 +258,29 @@ html, body {
         }
 
     }
+
+    .image-content {
+        @apply max-w-xl mt-10 rounded-lg mx-auto shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+
+        .image-container {
+            @apply flex flex-1 snap-x gap-8 overflow-x-auto p-8;
+
+            div {
+                @apply flex-none snap-center;
+
+                img {
+                    @apply h-40 w-80 shrink-0 rounded-lg;
+                }
+            }
+        }
+    }
     
 
 
+}
+
+@utility card-wrapper {
+    @apply flex max-w-xl mt-10 rounded-lg mx-auto shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
 }
 
 @utility flex-box {
