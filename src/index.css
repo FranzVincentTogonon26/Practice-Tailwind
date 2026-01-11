@@ -218,12 +218,40 @@ html, body {
     }
 
     .grid-content {
-        @apply grid grid-cols-[repeat(2,56px)] place-content-center h-56 gap-4 max-w-xl items-center mx-auto mt-10 p-5 rounded-lg py-4 shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+        @apply grid grid-cols-[repeat(2,56px)] place-content-center h-56 gap-4 max-w-md items-center mx-auto mt-10 p-5 rounded-lg py-4 shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
 
         div {
             @apply flex bg-sky-500 h-14 w-14 p-4 items-center justify-center text-white font-semibold text-sm rounded-lg;
         }
 
+    }
+
+    .article {
+        @apply space-y-5 flex flex-col mt-10 mx-auto rounded-lg p-5 max-w-xl justify-center shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+
+        time {
+            @apply text-sm text-gray-500 font-semibold
+        }
+
+        h2 {
+            @apply text-xl text-white font-semibold
+        }
+
+        p {
+            @apply text-gray-400  font-normal text-sm line-clamp-3
+        }
+
+        div {
+            @apply flex space-x-2 items-center;
+
+            img {
+                @apply h-6 w-6 rounded-full;    
+            }
+            
+            span {
+                @apply text-gray-500 font-medium text-white 
+            }
+        }
     }
 
 
