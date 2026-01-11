@@ -223,7 +223,7 @@ function Test() {
         <div>04</div>
     </div>
 
-
+    <div className='wrapper'>
     <article className='article'>
         <time>Mar 10, 2020</time>
         <h2>Boost your conversion rate</h2>
@@ -239,8 +239,7 @@ function Test() {
             <span>Lindsay Walton</span>
         </div>
     </article>
-       
-
+    </div>
 
     </>
   )
