@@ -132,6 +132,70 @@ function Test() {
      
     </div>
 
+    <div className='horizontal-sticky'>
+        <div className='sticky-container'>
+            <div className='header'>A</div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Andrew Alfred</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Aisha Houston</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Anna White</strong>
+            </div>
+        </div>
+        <div className='sticky-container'>
+            <div className='header'>B</div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Andy Flint</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Bob Alfred</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Bianca Houston</strong>
+            </div>
+        </div>
+        <div className='sticky-container'>
+            <div className='header'>C</div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Cheyenne White</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Cynthia Houston</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Charlie Flint</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Bert Flint</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Andrew Alfred</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Aisha Houston</strong>
+            </div>
+            <div className='profile-list'>
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=80" alt="" />
+                <strong>Anna White</strong>
+            </div>
+        </div>
+    </div>
+
     </>
   )
 }
