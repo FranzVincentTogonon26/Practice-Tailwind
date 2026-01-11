@@ -193,6 +193,22 @@ html, body {
         }
     }
 
+    .grid-list {
+        @apply grid grid-cols-3 gap-4 max-w-xl items-center mx-auto mt-10 rounded-lg p-4 shadow-lg ring-1 ring-gray-900/5  dark:bg-white/5 dark:ring-white/10;
+
+        div {
+            @apply text-white bg-purple-400 p-5 w-full text-center font-semibold text-sm rounded-lg;
+        }
+
+        div:nth-child(4){
+            @apply col-span-2 bg-purple-600
+        }
+
+        div:nth-child(7){
+            @apply col-span-2 bg-purple-600
+        }
+    }
+
 
 }
 

@@ -194,6 +194,16 @@ function Test() {
                 <strong>Anna White</strong>
             </div>
         </div>
+    </div>v
+
+    <div className='grid-list'>
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>06</div>
+        <div>07</div>
     </div>
 
     </>
