@@ -121,9 +121,34 @@ html, body {
             }
 
             span {
-                @apply text-gray-400 font-semibold;
+                @apply text-gray-500  font-semibold;
             }
             
+        }
+    }
+
+    .horizontal-list {
+        @apply h-40 overflow-y-auto flex flex-col divide-y divide-gray-200/5 flex-1 mx-auto rounded-lg max-w-md mt-10 gap-x-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10;
+
+        .profile-list {
+            @apply flex items-center p-3 gap-4 ;
+
+            img {
+                @apply h-12 w-12 rounded-full;
+            }
+
+            div {
+                @apply flex flex-col;
+
+                strong {
+                    @apply text-white font-semibold;
+                }
+                
+                span {
+                    @apply text-gray-500 font-normal;
+                }
+
+            }
         }
     }
 
